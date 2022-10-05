@@ -1,16 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="jaP[)w+|UM^FB(rT+082" x="122" y="-659"><statement name="HANDLER"><block type="device_while" id="j_T.tJ|fF%Z3N]??Nxv^"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="wR2)DX^ryQjfHuAiaccO"><field name="NAME">Button.A</field></block></value><statement name="DO"><block type="function_call" id="dLX.N^g.sUV(|i7/7OO="><mutation name="CicloA" functionid="vblkPsR);e?;XyiqF~Mt"></mutation><next><block type="device_show_leds" id="DFD^[Nm6CNV$fTx+#{FV"><field name="LEDS">`
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . .
-        `</field></block></next></block></statement><next><block type="device_while" id="8[o_ak}2m-WEXSeF6qIE"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="GR4|i7Wy2E14^iI|TH~P"><field name="NAME">Button.B</field></block></value><statement name="DO"><block type="function_call" id="C$8+?pbj5oR3v~wU8OmI"><mutation name="CicloB" functionid=":g20Lv^W!+8sx,.T_3KH"></mutation><next><block type="device_show_leds" id="mg5X)F7H~%:)B3b]@Coy"><field name="LEDS">`
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . .
-        `</field></block></next></block></statement></block></next></block></statement></block><block type="function_definition" id="Ut+nE{NuA4}gdWHzV}7Y" collapsed="true" x="579" y="-596"><mutation name="Jabonar" functionid="Myg]I~0EQ|0]D%4!|iSQ"></mutation><field name="function_name">Jabonar</field><statement name="STACK"><block type="device_show_leds" id="A`,=/v%q_FjfnY*UI%7*"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="function_definition" id="Ut+nE{NuA4}gdWHzV}7Y" collapsed="true" x="95" y="-1135"><mutation name="Jabonar" functionid="Myg]I~0EQ|0]D%4!|iSQ"></mutation><field name="function_name">Jabonar</field><statement name="STACK"><block type="device_show_leds" id="A`,=/v%q_FjfnY*UI%7*"><field name="LEDS">`
         . . . # . 
         . . # . # 
         . . . # . 
@@ -70,35 +58,35 @@
         . . . . . 
         . . . . . 
         . # . . .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="q$uZiCu}8kKP~+RJ*bHN" collapsed="true" x="574" y="-458"><mutation name="EntraAgua" functionid="+1y*mQmS6ELT]:[9,mS-"></mutation><field name="function_name">EntraAgua</field><statement name="STACK"><block type="device_show_leds" id="rpA5W;FFy!`%st%p-q)h"><field name="LEDS">`
-        . . # . . 
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="q$uZiCu}8kKP~+RJ*bHN" collapsed="true" x="196" y="-985"><mutation name="EntraAgua" functionid="+1y*mQmS6ELT]:[9,mS-"></mutation><field name="function_name">EntraAgua</field><statement name="STACK"><block type="device_show_leds" id="rpA5W;FFy!`%st%p-q)h"><field name="LEDS">`
+        . # # . . 
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . .
         `</field><next><block type="device_show_leds" id="36J}8=`6imH0.3rv!KvC"><field name="LEDS">`
-        . . # . . 
-        . . # . . 
+        . # # . . 
+        . # # . . 
         . . . . . 
         . . . . . 
         . . . . .
         `</field><next><block type="device_show_leds" id="y2Hq/~D9g-q.GiT}G)9$"><field name="LEDS">`
-        . . # . . 
-        . . # . . 
-        . . # . . 
+        . # # . . 
+        . # # . . 
+        . # # . . 
         . . . . . 
         . . . . .
         `</field><next><block type="device_show_leds" id="v2EX(yoB`S}}Lmk4ge#|"><field name="LEDS">`
-        . . # . . 
-        . . # . . 
-        . . # . . 
-        . . # . . 
+        . # # . . 
+        . # # . . 
+        . # # . . 
+        . # # . . 
         . . . . .
         `</field><next><block type="device_show_leds" id="G;eC+IA-N2e;r)O%}%AY"><field name="LEDS">`
-        . . # . . 
-        . . # . . 
-        . . # . . 
-        . . # . . 
+        . # # . . 
+        . # # . . 
+        . # # . . 
+        . # # . . 
         # # # # #
         `</field><next><block type="device_show_leds" id="._Uikri_;+bx?X418}6q"><field name="LEDS">`
         . . # . . 
@@ -118,7 +106,7 @@
         # # # # # 
         # # # # # 
         # # # # #
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="2RHTi+o`nrUeB03nuuhV" collapsed="true" x="571" y="-328"><mutation name="SaleAgua" functionid="w[akfT[DPP5^}QoUgu2m"></mutation><field name="function_name">SaleAgua</field><statement name="STACK"><block type="device_show_leds" id="uwRMb)2S,9E-Enr(Sa7_"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="jaP[)w+|UM^FB(rT+082" x="-300" y="-895"><statement name="HANDLER"><block type="device_while" id="j_T.tJ|fF%Z3N]??Nxv^"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="wR2)DX^ryQjfHuAiaccO"><field name="NAME">Button.A</field></block></value><statement name="DO"><block type="function_call" id="C$8+?pbj5oR3v~wU8OmI"><mutation name="CicloB" functionid=":g20Lv^W!+8sx,.T_3KH"></mutation></block></statement><next><block type="device_while" id="8[o_ak}2m-WEXSeF6qIE"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="GR4|i7Wy2E14^iI|TH~P"><field name="NAME">Button.B</field></block></value><statement name="DO"><block type="function_call" id="U+0F-zJ;1Nml*^ZV*J6E"><mutation name="CicloC" functionid="l,A*8m!3BkCv,dai:,C|"></mutation></block></statement><next><block type="device_while" id="z1U?krbXDlW?P,#GaM.i"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="iD)t4_z1{^ITku0y5V[6"><field name="NAME">Button.AB</field></block></value><statement name="DO"><block type="function_call" id="dLX.N^g.sUV(|i7/7OO="><mutation name="CicloA" functionid="vblkPsR);e?;XyiqF~Mt"></mutation></block></statement></block></next></block></next></block></statement></block><block type="function_definition" id="2RHTi+o`nrUeB03nuuhV" collapsed="true" x="260" y="-741"><mutation name="SaleAgua" functionid="w[akfT[DPP5^}QoUgu2m"></mutation><field name="function_name">SaleAgua</field><statement name="STACK"><block type="device_show_leds" id="uwRMb)2S,9E-Enr(Sa7_"><field name="LEDS">`
         . . # . . 
         # # # # # 
         # # # # # 
@@ -178,7 +166,7 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="[|mPw!46Y:#S;Em+9Ray" collapsed="true" x="569" y="-192"><mutation name="Secado" functionid="fwJ(L[!TCd;x16v2q|gg"></mutation><field name="function_name">Secado</field><statement name="STACK"><block type="device_show_leds" id="Zf8zBPg`Y8Na#3$`xM?w"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="[|mPw!46Y:#S;Em+9Ray" collapsed="true" x="259" y="-601"><mutation name="Secado" functionid="fwJ(L[!TCd;x16v2q|gg"></mutation><field name="function_name">Secado</field><statement name="STACK"><block type="device_show_leds" id="Zf8zBPg`Y8Na#3$`xM?w"><field name="LEDS">`
         . # . . . 
         # . # . . 
         . . . # . 
@@ -214,7 +202,7 @@
         . . # . # 
         . . . # . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="+$k:6KNhnTji*_+.Z:g$" collapsed="true" x="-277" y="-56"><mutation name="CicloB" functionid=":g20Lv^W!+8sx,.T_3KH"></mutation><field name="function_name">CicloB</field><statement name="STACK"><block type="controls_repeat_ext" id=";9)lEmU1-qJ-Dg%.I)*#"><value name="TIMES"><shadow type="math_whole_number" id="c4I)8Dl?TEjt|7!iMdsp"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id="#!YCqS6!iZ8cu[*_n47U"><mutation name="EntraAgua" functionid="+1y*mQmS6ELT]:[9,mS-"></mutation></block></statement><next><block type="controls_repeat_ext" id="/~r,.//YE+$RXA)8n%3D"><value name="TIMES"><shadow type="math_whole_number" id="{/:iDxP_6m;oD(v|[caH"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id="p)yp1/O:MtZ[rX|KtkLd"><mutation name="Jabonar" functionid="Myg]I~0EQ|0]D%4!|iSQ"></mutation></block></statement><next><block type="controls_repeat_ext" id="a=PNnr#4jUP.fE?yA.t)"><value name="TIMES"><shadow type="math_whole_number" id="2Jswz8uzs~eSk.);gObT"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id="lO5j/emm)-dW(H7.(.`k"><mutation name="Centrifugado" functionid="$8jJH,;_kZ:jcG0bYC`V"></mutation></block></statement><next><block type="controls_repeat_ext" id="VUR7574camMg{T99)hB8"><value name="TIMES"><shadow type="math_whole_number" id="~`59kzv_,onS2FbD9bqP"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id=":MNmO++X8B(@qCH.%+zu"><mutation name="SaleAgua" functionid="w[akfT[DPP5^}QoUgu2m"></mutation></block></statement><next><block type="controls_repeat_ext" id="5oO)$KyY8pX!,#W,$U=I"><value name="TIMES"><shadow type="math_whole_number" id="PO]0u}M4/1tgJWrC,;_Q"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id="[)6^)QEr%neKmQm[mt};"><mutation name="Secado" functionid="fwJ(L[!TCd;x16v2q|gg"></mutation></block></statement></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="vM(oSpY]lYa0~.trc5*A" collapsed="true" x="564" y="-57"><mutation name="Centrifugado" functionid="$8jJH,;_kZ:jcG0bYC`V"></mutation><field name="function_name">Centrifugado</field><statement name="STACK"><block type="device_show_leds" id="m@zN8,Pl1Di|I68OWUr["><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="vM(oSpY]lYa0~.trc5*A" collapsed="true" x="253" y="-462"><mutation name="Centrifugado" functionid="$8jJH,;_kZ:jcG0bYC`V"></mutation><field name="function_name">Centrifugado</field><statement name="STACK"><block type="device_show_leds" id="m@zN8,Pl1Di|I68OWUr["><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . # . . 
@@ -328,4 +316,4 @@
         # . # . # 
         # . . . # 
         # # # # #
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="L30sG[LRhP4NpH?ye[6l" collapsed="true" x="-283" y="121"><mutation name="CicloA" functionid="vblkPsR);e?;XyiqF~Mt"></mutation><field name="function_name">CicloA</field><statement name="STACK"><block type="function_call" id="r_LXxHU`J+C,FIB8~~oE"><mutation name="EntraAgua" functionid="+1y*mQmS6ELT]:[9,mS-"></mutation><next><block type="function_call" id="EJEUcN;AAqUwgRn}wMn-"><mutation name="Centrifugado" functionid="$8jJH,;_kZ:jcG0bYC`V"></mutation><next><block type="function_call" id="z_%7Ut#FzgG67KhusJZd"><mutation name="SaleAgua" functionid="w[akfT[DPP5^}QoUgu2m"></mutation><next><block type="function_call" id="2Jleyng:V;}=RK`L},wa"><mutation name="Secado" functionid="fwJ(L[!TCd;x16v2q|gg"></mutation></block></next></block></next></block></next></block></statement></block></xml>
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="+$k:6KNhnTji*_+.Z:g$" x="34" y="-117"><mutation name="CicloB" functionid=":g20Lv^W!+8sx,.T_3KH"></mutation><field name="function_name">CicloB</field><statement name="STACK"><block type="controls_repeat_ext" id=";9)lEmU1-qJ-Dg%.I)*#"><value name="TIMES"><shadow type="math_whole_number" id="c4I)8Dl?TEjt|7!iMdsp"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id="#!YCqS6!iZ8cu[*_n47U"><mutation name="EntraAgua" functionid="+1y*mQmS6ELT]:[9,mS-"></mutation></block></statement><next><block type="controls_repeat_ext" id="/~r,.//YE+$RXA)8n%3D"><value name="TIMES"><shadow type="math_whole_number" id="{/:iDxP_6m;oD(v|[caH"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id="p)yp1/O:MtZ[rX|KtkLd"><mutation name="Jabonar" functionid="Myg]I~0EQ|0]D%4!|iSQ"></mutation></block></statement><next><block type="controls_repeat_ext" id="a=PNnr#4jUP.fE?yA.t)"><value name="TIMES"><shadow type="math_whole_number" id="2Jswz8uzs~eSk.);gObT"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id="lO5j/emm)-dW(H7.(.`k"><mutation name="Centrifugado" functionid="$8jJH,;_kZ:jcG0bYC`V"></mutation></block></statement><next><block type="controls_repeat_ext" id="VUR7574camMg{T99)hB8"><value name="TIMES"><shadow type="math_whole_number" id="~`59kzv_,onS2FbD9bqP"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id=":MNmO++X8B(@qCH.%+zu"><mutation name="SaleAgua" functionid="w[akfT[DPP5^}QoUgu2m"></mutation></block></statement><next><block type="controls_repeat_ext" id="5oO)$KyY8pX!,#W,$U=I"><value name="TIMES"><shadow type="math_whole_number" id="PO]0u}M4/1tgJWrC,;_Q"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="function_call" id="[)6^)QEr%neKmQm[mt};"><mutation name="Secado" functionid="fwJ(L[!TCd;x16v2q|gg"></mutation></block></statement></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="7X.ygze6p{26)BI1EY5." x="446" y="-129"><mutation name="CicloC" functionid="l,A*8m!3BkCv,dai:,C|"></mutation><field name="function_name">CicloC</field><statement name="STACK"><block type="function_call" id="!OhZTX|~gm?G_CkJOa^5"><mutation name="EntraAgua" functionid="+1y*mQmS6ELT]:[9,mS-"></mutation><next><block type="function_call" id="]P`!3-dluG+nxrpWTD64"><mutation name="Centrifugado" functionid="$8jJH,;_kZ:jcG0bYC`V"></mutation><next><block type="function_call" id=",w.yvjK}7,/AB3,m?26{"><mutation name="Jabonar" functionid="Myg]I~0EQ|0]D%4!|iSQ"></mutation><next><block type="function_call" id=";lYofaI%-`Lfkfv]mX(c"><mutation name="SaleAgua" functionid="w[akfT[DPP5^}QoUgu2m"></mutation><next><block type="function_call" id="5xrhJ3G=g6V70wce%kIJ"><mutation name="EntraAgua" functionid="+1y*mQmS6ELT]:[9,mS-"></mutation><next><block type="function_call" id="UtN`^e?#w^9;SFwm^*%N"><mutation name="Centrifugado" functionid="$8jJH,;_kZ:jcG0bYC`V"></mutation><next><block type="function_call" id="J;w7m6,/yX[X2gp,Gj}q"><mutation name="SaleAgua" functionid="w[akfT[DPP5^}QoUgu2m"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="L30sG[LRhP4NpH?ye[6l" x="-468" y="-68"><mutation name="CicloA" functionid="vblkPsR);e?;XyiqF~Mt"></mutation><field name="function_name">CicloA</field><statement name="STACK"><block type="function_call" id="r_LXxHU`J+C,FIB8~~oE"><mutation name="EntraAgua" functionid="+1y*mQmS6ELT]:[9,mS-"></mutation><next><block type="function_call" id="EJEUcN;AAqUwgRn}wMn-"><mutation name="Centrifugado" functionid="$8jJH,;_kZ:jcG0bYC`V"></mutation><next><block type="function_call" id="z_%7Ut#FzgG67KhusJZd"><mutation name="SaleAgua" functionid="w[akfT[DPP5^}QoUgu2m"></mutation><next><block type="function_call" id="2Jleyng:V;}=RK`L},wa"><mutation name="Secado" functionid="fwJ(L[!TCd;x16v2q|gg"></mutation></block></next></block></next></block></next></block></statement></block></xml>

@@ -17,38 +17,38 @@ function CicloB () {
 }
 function EntraAgua () {
     basic.showLeds(`
-        . . # . .
+        . # # . .
         . . . . .
         . . . . .
         . . . . .
         . . . . .
         `)
     basic.showLeds(`
-        . . # . .
-        . . # . .
+        . # # . .
+        . # # . .
         . . . . .
         . . . . .
         . . . . .
         `)
     basic.showLeds(`
-        . . # . .
-        . . # . .
-        . . # . .
+        . # # . .
+        . # # . .
+        . # # . .
         . . . . .
         . . . . .
         `)
     basic.showLeds(`
-        . . # . .
-        . . # . .
-        . . # . .
-        . . # . .
+        . # # . .
+        . # # . .
+        . # # . .
+        . # # . .
         . . . . .
         `)
     basic.showLeds(`
-        . . # . .
-        . . # . .
-        . . # . .
-        . . # . .
+        . # # . .
+        . # # . .
+        . # # . .
+        . # # . .
         # # # # #
         `)
     basic.showLeds(`
@@ -72,6 +72,15 @@ function EntraAgua () {
         # # # # #
         # # # # #
         `)
+}
+function CicloC () {
+    EntraAgua()
+    Centrifugado()
+    Jabonar()
+    SaleAgua()
+    EntraAgua()
+    Centrifugado()
+    SaleAgua()
 }
 function Secado () {
     basic.showLeds(`
@@ -404,23 +413,12 @@ function Jabonar () {
 }
 basic.forever(function () {
     while (input.buttonIsPressed(Button.A)) {
-        CicloA()
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
+        CicloB()
     }
     while (input.buttonIsPressed(Button.B)) {
-        CicloB()
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
+        CicloC()
+    }
+    while (input.buttonIsPressed(Button.AB)) {
+        CicloA()
     }
 })
